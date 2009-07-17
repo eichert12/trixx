@@ -89,7 +89,7 @@
 
 (defstruct queue-info :name :vhost :durable :auto_delete 
            :messages-ready :messages-unacknowledged
-	   :messages-uncommitted :messages :acks-uncommitted 
+	         :messages-uncommitted :messages :acks-uncommitted 
            :consumers :transactions :memory)
 
 (defstruct queue-binding :vhost :exchange :queue :routing-key)
